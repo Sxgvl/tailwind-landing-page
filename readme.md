@@ -47,7 +47,7 @@ Pour changer de police :
  lg : laptop
  xl : desktop
 
-  ****GIT****
+  ****AJOUTER UN PROJET SUR GIT****
   Creer fichier .gitignore et y mettre 'node_modules' <- fichier a ignorer lors du push
 
   Ctrl + C
@@ -55,4 +55,9 @@ Pour changer de police :
   - git init
   - git add .
   - git commit -m 'Message du commit'
-  - 
+  - Aller sur site git/+/new repository/creer le repository
+
+  Suivre les instructions '…or push an existing repository from the command line' pour push le projet sur git dans le repository cree
+  - git remote add origin https://github.com/Sxgvl/tailwind-landing-page.git
+  - git branch -M main
+  - git push -u origin main
