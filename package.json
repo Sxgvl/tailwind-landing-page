@@ -1,0 +1,16 @@
+{
+  "name": "manage_landing_page",
+  "version": "1.0.0",
+  "description": "Installation CLI (Command Line Interface) :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build-css": "tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
